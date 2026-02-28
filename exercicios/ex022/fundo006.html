@@ -3,19 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>fundo fixo de tela</title>
     <style>
         body {
             height: 100vh;
-            background-color: black;
+            /*background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;*/
+
+            /* Shorthand - background 
+                color > image > position > repeat > [size] > attachment
+            */
+
+            background: black url(imagens/wallpaper002.jpg) center center no-repeat  fixed; 
+            background-size: cover;
         }
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -27,7 +35,7 @@
     <main>
         <h1>Teste de Imagem de fundo</h1>
         <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam quas dignissimos sed beatae pariatur labore molestiae, eius excepturi, optio eum unde doloribus. Aut facilis quo repudiandae! Tenetur aliquam amet tempora?Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe aliquam debitis quod blanditiis provident eos qui animi id voluptatem commodi. Doloribus quo quibusdam accusamus magnam rem ducimus adipisci corrupti laudantium?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis veniam quod corporis totam. Nihil praesentium quisquam qui, cumque quam rerum, quidem error, aliquam ipsam totam suscipit quod quos adipisci debitis.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam quas dignissimos sed beatae pariatur labore molestiae, eius excepturi, optio eum unde doloribus. Aut facilis quo repudiandae! Tenetur aliquam amet tempora?Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe aliquam debitis quod blanditiis provident eos qui animi id voluptatem commodi. Doloribus quo quibusdam accusamus magnam rem ducimus adipisci corrupti laudantium?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis veniam quod corporis totam. Nihil praesentium quisquam qui, cumque quam rerum, quidem error, aliquam ipsam totam suscipit quod quos adipisci debitis Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto obcaecati nesciunt itaque quod consequatur id, eveniet doloremque soluta totam! Laborum, repudiandae! Deserunt corrupti debitis voluptatem maiores sequi asperiores accusamus recusandae?Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quaerat nobis ullam ducimus, voluptates eligendi nihil nemo numquam ut qui saepe praesentium rerum repellat. Quo vitae eligendi quisquam labore quod?Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta dicta debitis atque quisquam rerum amet iste alias velit, quas laboriosam doloribus pariatur distinctio dolorum temporibus cum rem sit, quod nostrum.lorem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis cupiditate esse accusantium ratione cumque aliquam, mollitia repellat neque expedita enim. Quae dolorem optio autem voluptatem velit necessitatibus ex dolorum voluptates.
         </p>
     </main>
 </body>
